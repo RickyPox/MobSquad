@@ -18,6 +18,9 @@ body{
 #navbar_icon:hover{
     fill:#98DABC;
 }
-#active{
+.teamName:checked ~ label {
     color: #C59DF8;
+}
+.teamSocials:hover{
+    fill: #C59DF8;
 }
