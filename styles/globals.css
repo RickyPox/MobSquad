@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1d1d1d;
+    
+}
+.socials:hover{
+    fill: #98DABC;
+}
+#navbar_logo:hover + #navbar_icon{
+    fill:#98DABC;
+}
+#navbar_icon:hover{
+    fill:#98DABC;
+}
+#active{
+    color: #C59DF8;
+}
