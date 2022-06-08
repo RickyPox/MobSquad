@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "yarn build && npx next export && firebase deploy --only hosting" 
+    
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",

@@ -1,16 +1,15 @@
 export default function About(){
     return(
-        <div className="2xl:px-[500px] flex flex-col justify-center w-screen h-screen pt-[120px]" id="about">
+        <div className="2xl:px-[500px] lg:px-[150px] px-6 md:px-20 flex flex-col justify-center w-screen md:h-screen pt-[120px]" id="about">
 
-                <h1 className="font-[Poppins] text-white uppercase text-[65px] font-extrabold text-center">WHAT IS MOBSQUAD?</h1>
-                <div className="flex flex-row mt-[70px] justify-between">
-                    <p className="text-white font-[Poppins] font-medium text-[16px] w-[550px]"> Mob Squad is all about underground culture and supporting great independent artists. 
-                        We come from Brazil, where we have felt poverty and the social issues that comes with it. 
-                        From drugs addiction to extreme fear of the environment surrounding us, ink saved our lives and helped us upgrade everything to a new level. 
-                        Mob Squad is formed by independent tattoo artists and entrepreneurs whose founders are also owners of the Black Coffee Art Gallery, 
-                        a well located and successful private tattoo parlor in Lisbon.
-                    </p>
-                    <img src="/MobImage.svg"></img>
+                <h1 className="font-[Poppins] text-white uppercase lg:text-[65px] text-[30px] font-extrabold text-center">WHAT IS MOBSQUAD?</h1>
+                <div className="flex flex-row  mt-[70px] justify-center space-x-10">
+                    <div className="w-[240px] lg:w-[550px]">
+                    <p className="text-white font-[Poppins] font-medium text-[10px] lg:text-[16px]  mt-[20px]">Far deep in confines of Solana nature, lives a colony of 1001 dwarf creatures - commonly known as Mobs.</p>
+                    <p className="text-white font-[Poppins] font-medium text-[10px] lg:text-[16px]  mt-[20px]">Striving in secrecy and rising throughout the strength of their own tribe, Mobs have been approached by a few explorers. Do you have what it takes to join Mob $quad?</p> 
+                    <p className="text-white font-[Poppins] font-medium text-[10px] lg:text-[16px]  mt-[50px]"><strong>Get yours while you still can!</strong></p>
+                    </div>
+                    <img src="/MobImage.svg" className=" w-[110px] lg:w-[250px]"></img>
                 </div>     
         </div>
     )

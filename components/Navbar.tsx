@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Project', href: '#join' },
   { name: 'Whitepaper', href: '#' },
   { name: 'Team', href: '#team' },
-  { name: 'Faq', href: '#' },
+  { name: 'Faq', href: '#faq' },
   { name: 'Shop', href: '#' },
 ]
 
@@ -39,7 +39,7 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className={"w-screen px-6 md:px-20 lg:px-[10%] 2xl:px-[310px] lg:fixed z-40 navbar lg:border-b-[1px] " + (navbar ? "bg-[#1d1d1d]" : "bg-transparent")} >
+          <div className={"w-screen px-6 md:px-20 lg:px-[80px] 2xl:px-[310px] fixed z-40 navbar border-b-[1px] pb-5 " + (navbar ? "bg-[#1d1d1d]" : "bg-[#1d1d1d]")} >
             <div className="relative flex items-end justify-between h-[120px] ">
               <div className="absolute inset-y-0 right-[10px] flex items-end lg:hidden">
 
@@ -98,8 +98,8 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="lg:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+          <Disclosure.Panel className="lg:hidden fixed">
+            <div className="px-2 pb-3 space-y-1  pt-[150px] bg-[#1d1d1d] w-screen">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
