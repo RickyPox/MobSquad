@@ -235,7 +235,7 @@ export default function Team() {
       <div className="flex sm:space-x-10 md:h-screen lg:hidden lg:px-[150px] 2xl:px-[310px]">
 
           {/* HANDLES */}
-        <div className="flex w-[200px] flex-col space-y-[30px] px-[30px] pt-[20px] font-[Poppins] text-[16px] font-medium text-white ">
+        <div className="flex w-[200px] flex-col space-y-[30px] px-[30px] pt-[20px] font-[Poppins] text-[16px] font-medium text-white z-10 ">
           <div>
             <input
               type="radio"

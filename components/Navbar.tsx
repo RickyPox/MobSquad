@@ -40,7 +40,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className={"w-screen px-6 md:px-20 lg:px-[80px] 2xl:px-[310px] fixed z-40 navbar border-b-[1px] pb-5 " + (navbar ? "bg-[#1d1d1d]" : "bg-[#1d1d1d]")} >
-            <div className="relative flex items-end justify-between h-[120px] ">
+            <div className="relative flex items-end justify-between lg:h-[120px] h-[60px] ">
               <div className="absolute inset-y-0 right-[10px] flex items-end lg:hidden">
 
                 {/* Mobile menu button*/}
@@ -98,7 +98,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="lg:hidden fixed">
+          <Disclosure.Panel className="lg:hidden fixed z-30 ">
             <div className="px-2 pb-3 space-y-1  pt-[150px] bg-[#1d1d1d] w-screen">
               {navigation.map((item) => (
                 <Disclosure.Button
