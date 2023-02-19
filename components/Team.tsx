@@ -239,13 +239,13 @@ export default function Team() {
           <div>
             <input
               type="radio"
-              id="name1"
+              id="name1Mobile"
               name="teamPersonMobile"
               defaultChecked
               className="teamNameMobile hidden"
             />
             <label
-              htmlFor="name1"
+              htmlFor="name1Mobile"
               onClick={() => handleOnClick(1)}
               className="cursor-pointer transition-all duration-500 ease-in-out hover:text-[#C59DF8]"
             >
@@ -255,12 +255,12 @@ export default function Team() {
           <div>
             <input
               type="radio"
-              id="name2"
+              id="name2Mobile"
               name="teamPersonMobile"
               className="teamName hidden"
             />
             <label
-              htmlFor="name2"
+              htmlFor="name2Mobile"
               onClick={() => handleOnClick(2)}
               className="cursor-pointer transition-all duration-500 ease-in-out hover:text-[#C59DF8]"
             >
@@ -270,12 +270,12 @@ export default function Team() {
           <div>
             <input
               type="radio"
-              id="name3"
+              id="name3Mobile"
               name="teamPersonMobile"
               className="teamName hidden"
             />
             <label
-              htmlFor="name3"
+              htmlFor="name3Mobile"
               onClick={() => handleOnClick(3)}
               className="cursor-pointer transition-all duration-500 ease-in-out hover:text-[#C59DF8]"
             >
@@ -285,12 +285,12 @@ export default function Team() {
           <div>
             <input
               type="radio"
-              id="name4"
+              id="name4Mobile"
               name="teamPersonMobile"
               className="teamName hidden"
             />
             <label
-              htmlFor="name4"
+              htmlFor="name4Mobile"
               onClick={() => handleOnClick(4)}
               className="cursor-pointer transition-all duration-500 ease-in-out hover:text-[#C59DF8]"
             >
@@ -300,12 +300,12 @@ export default function Team() {
           <div>
             <input
               type="radio"
-              id="name5"
+              id="name5Mobile"
               name="teamPersonMobile"
               className="teamName hidden"
             />
             <label
-              htmlFor="name5"
+              htmlFor="name5Mobile"
               onClick={() => handleOnClick(5)}
               className="cursor-pointer transition-all duration-500 ease-in-out hover:text-[#C59DF8]"
             >
